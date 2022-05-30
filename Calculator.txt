@@ -1,0 +1,21 @@
+from pytube import Youtube
+
+link=input("Please Enter Youtube Link:")
+yt=Youtube(link)
+ys=yt.stream.get_highest_resolution()
+ys.download()
+print("Eisai Komple")
+
+
+
+
+Calculator
+
+
+
+from ast import If
+
+
+num1=input("Δώσε νούμερο")
+num2=input("Δώσε άλλο  νούμερο")
+app=input("Τι πράξη θες να κάνεις?")
